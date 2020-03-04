@@ -7,6 +7,6 @@ const hiddenMessage = arr2.map(item => item - 24)
 const library = arr1.reverse()
 // library = ["Y", "V", "U", "T", "S", "K", "N", "O", "Q", "R", "I", "H", "G", "E", "D", "B", "A"]
 
-message = hiddenMessage.map(item => library[item]? library[item]: ' ')
+const message = hiddenMessage.map(item => library[item]? library[item]: ' ')
 console.log(message.join(''))
 // "QUESTION EVERYTHING YOU READ IN ANY BOOKS"
